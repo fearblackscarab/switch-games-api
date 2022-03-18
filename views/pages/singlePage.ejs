@@ -1,0 +1,15 @@
+<%- include('../partials/header') %>
+
+<main class="main container" id="main">
+    <section class="section single-section">
+        <p class="genre">Genres: <%= data.genre %> </p>
+        <p class="developer">Developers: <%= data.developers %></p>
+        <p class="publishers">Publishers: <%= data.publishers %></p>
+        <p class="releasedate-japan">Release Date Japan: <%= data.releaseDates.Japan %> </p>
+        <p class="releasedate-na">Release Date NA: <%= data.releaseDates.NorthAmerica %> </p>
+        <p class="releasedate-eu">Release Date EU: <%= data.releaseDates.Europe %> </p>
+        <p class="releasedate-australia">Release Date Australia: <%= data.releaseDates.Australia %> </p>
+    </section>
+</main>
+
+<%- include('../partials/footer') %> 

@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+a{
+    color: red;
+}
+
+.game-section,.single-section{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    text-align: left;
+}
+
+.top-nav{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.top-nav-item{
+    display: inline;
+    color: red;
+}
+

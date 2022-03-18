@@ -1,0 +1,11 @@
+<%- include('../partials/header') %>
+
+<main class="main container games-main" id="main">
+    <section class="section game-section">
+        <% data.forEach(item=>{ %>
+            <h3 class="game-title"><%=item.id %>: <a href="/games/<%= item.id %> "><%= item.name %></a></h3>
+            <% }) %>
+    </section>
+</main>
+
+<%- include('../partials/footer') %> 
